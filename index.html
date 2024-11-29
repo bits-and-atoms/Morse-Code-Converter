@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Morse Code Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Morse Code Converter</h1>
+
+    <div class="form-group">
+      <label for="text-input">Enter Text or Morse Code:</label>
+      <textarea id="text-input" rows="4" placeholder="Enter text or morse code here..."></textarea>
+    </div>
+
+    <div class="buttons">
+      <button id="to-morse">Text to Morse Code</button>
+      <button id="to-text">Morse Code to Text</button>
+    </div>
+
+    <div class="output-group">
+      <label for="output">Output:</label>
+      <textarea id="output" rows="4" readonly></textarea>
+    </div>
+
+    <div class="extra-controls">
+      <button id="clear-input">Clear</button>
+      <button id="download">Download</button>
+    </div>
+
+    <footer>
+      <p>For source code, refer to <a href="#" target="_blank">this GitHub repository</a>.
+      </p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
